@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning html</title>
+    <link rel="stylesheet" type="text/css" href="coffeeshop.css">
+</head>
+<body>
+	<div class="available_coffee out_of_stock" id="mocha">
+        <h4> Mocha </h4>
+        <img src="mocha.png" class="div-img">
+    </div>
+    <div class="available_coffee in_stock">
+        <h4> Cappuccino </h4>
+        <img src="cappuccino.png" class="div-img">
+    </div>
+</body>	
+</html>
+          
+
+.available_coffee{
+	color: orange;
+	height:300px;
+	width: 300px;
+}
+.out_of_stock{
+	border-top-style: dotted;
+	border-top-width: 2px;
+	border-top-color: red;
+	border-bottom-style: dotted;
+	border-bottom-width: 2px;
+	border-bottom-color: green;
+}
+.div-img{
+	height: 80%;
+	width: 100%;
+}
+
+.in_stock{
+	border: 2px dashed green;
+}
+#mocha{
+	color: grey;
+}

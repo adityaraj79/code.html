@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning html</title>
+    <link rel="stylesheet" type="text/css" href="coffeeshop.css">
+</head>
+<body>
+    <div class="available_coffee">
+        <p>This is normal text.</p>
+        <p>This is <b>Bold</b> text.</p>
+        <p>This is <i>Italic</i> text.</p>
+        <p>This is <strong>Strong</strong> text.</p>
+        <p>This is <em>Emphasized</em> text.</p>
+        <p>This is <sub>Subscript</sub> text.</p>
+        <p>This is <sup>Superscript</sup> text.</p>
+        <p>This is <del> Deleted </del> text.</p>
+    </div>
+	<div class="available_coffee out_of_stock" id="mocha">
+        <h4> Mocha </h4>
+        <img src="mocha.png" class="div-img">
+    </div>
+    <div class="available_coffee in_stock">
+        <h4> Cappuccino </h4>
+        <img src="cappuccino.png" class="div-img">
+    </div>
+</body>	
+</html>
+          
+
+.available_coffee{
+	height:300px;
+	width: 300px;
+}
+.out_of_stock{
+	border-top-style: dotted;
+	border-top-width: 2px;
+	border-top-color: red;
+	border-bottom-style: dotted;
+	border-bottom-width: 2px;
+	border-bottom-color: green;
+	font-size: 13px;
+	font-style: italic;
+	font-family: Georgia;
+
+}
+.div-img{
+	height: 80%;
+	width: 100%;
+}
+
+.in_stock{
+	border: 2px dashed green;
+}
+#mocha{
+	color: grey;
+}

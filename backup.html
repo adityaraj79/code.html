@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning html</title>
+    <link rel="stylesheet" type="text/css" href="coffeeshop.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"> Home</a>
+        <a href="product.html"> Product</a>
+        <a href="contacts.html"> Contact</a>
+    </nav>
+    <ul class="coffee-list">
+        <li>Mocha</li>
+        <li>Cappuccino</li>
+        <li>Espresso</li>
+    </ul>
+
+    <ol type="A">
+        <li>Choose coffee.</li>
+        <li>Order coffee.</li>
+        <li>Compelete payment.</li>
+        <li>Deliver coffee.</li>
+        <li>Enjoy coffee.</li>
+    </ol>
+
+    <dl>
+        <dt>Mocha coffee</dt>
+        <dd>This is my favourite.</dd>
+        <dt>Cappussino coffee</dt>
+        <dd>This is not my favourite.</dd>
+    </dl>
+    <div >
+        <table class="pricing-table">
+            <caption  class="caption-heading">
+                <h1>Coffee Menu</h1>
+            </caption>
+            <tr>
+                <th>Coffee Name</th>
+                <th>Price (in Rs.)</th>
+                <th>Availablity</th>
+            </tr>
+            <tr class="tr-out-of-stock">
+                <td>Mocha</td>
+                <td>140</td>
+                <td>Out-of-stock</td>
+            </tr>
+            <tr class="tr-in-stock">
+                <td>Cappuccino</td>
+                <td>170</td>
+                <td>in-stock</td>
+            </tr>
+            <tr class ="tr-in-stock">
+                <td>Espresso</td>
+                <td>200</td>
+                <td>in-stock</td>
+            </tr>
+        </table>
+    </div>
+    <div class="available_coffee">
+        <p>This is normal text.</p>
+        <p>This is <b>Bold</b> text.</p>
+        <p>This is <i>Italic</i> text.</p>
+        <p>This is <strong>Strong</strong> text.</p>
+        <p>This is <em>Emphasized</em> text.</p>
+        <p>This is <sub>Subscript</sub> text.</p>
+        <p>This is <sup>Superscript</sup> text.</p>
+        <p>This is <del> Deleted </del>text.</p>
+    </div>
+	<div class="available_coffee out_of_stock" id="mocha">
+        <h4> Mocha </h4>
+        <img src="mocha.png" class="div-img">
+    </div>
+    <div class="available_coffee in_stock">
+        <h4> Cappuccino </h4>
+        <img src="cappuccino.png" class="div-img">
+    </div>
+    <footer class="footer">
+        <div style="height: 50%;">
+            <a href="index.html">Home |</a>
+            <a href="product.html">Product</a>
+        </div>
+        <div style="height: 50%">
+            <p>Designed by Praac copyright@goodvibes</p>
+        </div>
+    </footer>
+</body>	
+</html>
+          
+
+
+
+.footer{
+	background-color: #272727;
+	color: white;
+	height: 100px;
+	font-size: 20px;
+	text-align: center;
+}
+.coffee-list{
+	list-style-type: circle;
+}
+
+.available_coffee{
+	height:300px;
+	width: 300px;
+}
+.out_of_stock{
+	border-top-style: dotted;
+	border-top-width: 2px;
+	border-top-color: red;
+	border-bottom-style: dotted;
+	border-bottom-width: 2px;
+	border-bottom-color: green;
+	font-size: 13px;
+	font-style: italic;
+	font-family: Georgia;
+
+}
+.div-img{
+	height: 80%;
+	width: 100%;
+}
+
+.in_stock{
+	border: 2px dashed green;
+}
+#mocha{
+	color: grey;
+}
+.pricing-table{
+	width: 100%;
+	border: 2px solid green;
+	font-family: "Arial Black",Gadget, sans-serif;
+}
+.caption-heading{
+	color: #2979a8;
+}
+th{
+	background-color: #32a87d;
+	height: 50px;
+	color: white;
+	font-size: 22px;
+}
+td{
+	color: #7c4c29;
+	height: 40px;
+	font-size: 21px;
+	text-align: center;
+}
+.tr-out-of-stock:hover{
+	background-color: #ffcccc;
+}
+.tr-in-stock:hover{
+	background-color: lightgreen;
+}
+.lara{
+	color: maroon;
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product page</title>
+</head>
+<body>
+	<nav>
+        <a href="index.html"> Home |</a>
+        <a href="product.html"> Product</a>
+        <a href="contacts.html"> Contact</a>
+    </nav>
+	<h1>This is the product page.</h1>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact page</title>
+	<link rel="stylesheet" type="text/css" href="coffeeshop.css">
+</head>
+<body>
+	<a href="index.html"> Home</a>
+    <a href="product.html"> Product</a>
+    <a href="contacts.html"> Contact</a>
+	<h4>For more details contact us:</h4>
+	<h2 class="lara">rajaditya792003@gmail.com</h2>
+</body>
+</html>

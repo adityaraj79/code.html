@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Coffee shop</title>
+	<link rel="stylesheet" type="text/css" href="coffeeshop.css">
+
+</head>
+
+<body>
+	<nav>
+		<a href="index.html">Home |</a>
+		<a href="product.html">Product Page</a>
+		<a href="contacts.html">Contact page</a>
+	</nav>
+
+	<div class="available-coffee in-stock" id="mocha" style="display: inline-block;">
+	    <h4>Cappuccino</h4>
+	    <img src=" cappuccino.png" class="img-coffee">
+	</div>
+
+	<div class="pata-nahi" style="display: inline-block;">
+		<h4>Espresso</h4>
+		<img src="espresso.png" class="img-coffee">
+	</div>
+
+	<div class="available-coffee out-of-stock" style="display: inline-block;">
+		<h4>Mocha</h4>
+		<img src="mocha.png" class="img-coffee">
+	</div>
+	<div class="set-margin">
+		This is my Name.
+	</div>
+	<div class="first-div">
+		This is my age.
+	</div>
+	<div class="set-padding">
+		This is a div.
+	</div>
+	<div class="second-div">
+		This is my age.
+	</div>
+    <footer class="footer">
+    	<div style="height: 50%;">
+    		<a href="https://www.linkedin.com/in/adityaraj79/" target="_blank">
+    			LinkedIn
+    		</a>
+    		<a href="https://github.com/adityaraj79" target="_blank">
+    				GitHub
+    		</a>
+    	</div>
+    	<div style="height: 50%">
+    		copyright@adityaraj
+    	</div>
+    </footer>
+</body>	
+</html>
+
+
+
+
+.available-coffee{
+	color: blue;
+}
+
+.in-stock{
+	border: 4px double green;
+	height: 300px;
+	width: 300px;
+	font-style: italic;
+}
+
+.out-of-stock{
+	border: 4px  dotted red;
+	height: 300px;
+	width: 300px;
+	font-size: 15px;
+	font-style: italic;
+}
+
+#mocha{
+	color: grey;
+}
+
+.img-coffee{
+	width: 100%;
+	height: 80%;
+}
+
+.pata-nahi{
+    height: 300px;
+	width: 300px;
+
+	border-width: 4px;
+	border-top-style: dotted;
+	border-bottom-style: dashed;
+	border-left-style: solid;
+	border-right-style: double;
+	border-color: hotpink;
+}
+.pricing-table{
+	width: 100%;
+	border: 2px solid green;
+	font-family: "Aerial Black", Gadget, sans-serif;
+}
+.caption-heading{
+	color: #2979a8;
+	font-size: 25px;
+}
+th{
+	background-color: lightgreen;
+	height: 50px;
+	color: white;
+	font-size: 22px;
+}
+td{
+	height: 50px;
+	font-size: 21px;
+	color: brown;
+	text-align: center;
+}
+.tr-out-of-stock:hover{
+	background-color:#ffcccc;
+}
+.tr-in-stock:hover{
+	background-color:#ccffe6;
+}
+.footer{
+	background-color: grey;
+	color: white;
+	height: 100px;
+	font-size: 20px;
+	text-align: center;
+}
+[href="https://www.boltiot.com"]{
+	color: red;
+}
+h1,h5{
+	color: blueviolet;
+}
+.family-line span{
+	color: blueviolet;
+}
+.set-margin{
+	height: 100px;
+	border: 2px solid red;
+	margin: 40px;
+}
+.first-div{
+	height: 100px;
+	border: 2px solid green;
+	margin: 0px 20px 0px 20px;
+}
+.set-padding{
+	height: 100px;
+	border: 2px solid blue;
+	padding: 40px;
+	text-align: center;
+}
+.second-div{
+	padding: 0px 20px 0px 20px;
+	height: 100px;
+	border: 2px solid red;
+}

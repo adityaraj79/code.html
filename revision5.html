@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coffee shop</title>
+	<link rel="stylesheet" type="text/css" href="coffeeshop.css">
+
+</head>
+
+<body>
+	<nav class="navigation">
+		<a href="index.html">Home |</a>
+		<a href="product.html">Product Page</a>
+		<a href="contacts.html">Contact page</a>
+		<a href="signUp.html" class="sign">SignUp</a>
+	</nav>
+	<h3>Aaj main uper aasman niche</h3>
+
+	<div>&#8377;150 rupya dega&#128514;&#128514;&#128514; <span style="font-size: 20px"><sup>&diams;</sup></span></div>
+
+	<a href="https://www.boltiot.com" target="_blank">BoltIot</a>
+    <p></p>
+    <a href="https://www.firefox.com" target="_blank">Google</a>
+
+    <h1>This is h1</h1>
+    <h5 class="sticky">I am sticky.</h5>
+
+    <div class="family-line">
+    	<div>
+    		<span>This is a span.</span>
+    	</div>
+    </div>
+    
+	<span style="border: 2px solid red; display:block;">
+		Span1
+	</span>
+	<span style="border:2px solid green;display:block;">
+		Span2
+	</span>
+	<p></p>
+	<div style="border: 2px solid red; display:inline;">
+		Div1
+	</div>
+	<div style="border:2px solid green;display:inline;">
+		Div2
+	</div>
+    <div class="available-coffee">
+    	<p>This is Normal.</p>
+    	<p>This is <b>Bold</b> .</p>
+    	<p>This is <i>Italic</i> .</p>
+    	<p>This is <strong>Strong</strong> .</p>
+    	<p>This is <em>Emphasized</em> .</p>
+    	<p>This is <del>Deleted</del> .</p>
+    	<p>This is <sub>Subscript</sub> .</p>
+    	<p>This is <sup>Superscript</sup> .</p>
+    </div>
+	<div class="available-coffee in-stock" id="mocha" style="display: inline-block;">
+	    <h4>Cappuccino</h4>
+	    <img src="cappuccino.png" class="img-coffee">
+	</div>
+
+	<div class="pata-nahi" style="display: inline-block;">
+		<h4>Espresso</h4>
+		<img src="espresso.png" class="img-coffee">
+	</div>
+
+	<div class="available-coffee out-of-stock" style="display: inline-block;">
+		<h4>Mocha</h4>
+		<img src="mocha.png" class="img-coffee">
+	</div>
+	<div>
+
+    <div class="floater">
+    	This is text under floating.
+    	<img src="mocha.png">
+    </div>
+
+	<table class="pricing-table">
+		<caption class="caption-heading">
+			<b>Coffee-Menu</b>
+		</caption>
+		<tr>
+			<th>Coffee Name</th>
+			<th>Price(in Rs.)</th>
+			<th>Availability</th>
+		</tr>
+		<tr class="tr-in-stock">
+			<td>Cappussino</td>
+			<td>120</td>
+			<td>In-stock</td>
+		</tr>
+		<tr class="tr-out-of-stock">
+			<td>Espresso</td>
+			<td>150</td>
+			<td>Out-of-stock</td>
+		</tr>
+		<tr class="tr-in-stock">
+			<td>Mocha</td>
+			<td>200</td>
+			<td>In-stock</td>
+		</tr>
+	</table>
+    </div>
+    <ul style="list-style-type: square;">
+    	<li>Cappussino</li>
+    	<li>Double Espresso</li>
+    	<li>Espresso</li>
+    	<li>Mocha</li>
+    </ul>
+    <ol type="I">
+    	<li>Choose coffee</li>
+    	<li>Order coffee</li>
+    	<li>Make payment</li>
+    	<li>Take delivery</li>
+    	<li>Enjoy coffee</li>
+    </ol>
+    <dl>
+    	<dt>Mocha</dt>
+    	<dd>
+    		A mocha is derived from a bean called coffee-arabic.
+    	</dd>
+    	<dt>Cappussino</dt>
+    	<dd>
+    		hsdfhilfhnislhifs sebjklfkluhglseewwhu iryjeigpejliewt.
+    	</dd>
+    </dl>
+
+    <div class="container">
+			<div class="child1">
+				This is child1.
+			</div>
+			<div class="child2">
+				This is child2.
+			</div>
+		</div>
+		<a href="https://www.boltiot.com" target="_blank">BoltIot</a>
+    <p></p>
+    <a href="https://www.firefox.com" target="_blank">Google</a>
+    
+    <footer class="footer">
+    	<div style="height: 50%;">
+    		<a href="https://www.linkedin.com/in/adityaraj79/" target="_blank">
+    			LinkedIn
+    		</a>
+    		<a href="https://github.com/adityaraj79" target="_blank">
+    				GitHub
+    		</a>
+    	</div>
+    	<div style="height: 50%">
+    		copyright@adityaraj
+    	</div>
+    </footer>
+
+
+</body>	
+</html>
+
+
+
+
+
+.navigation{
+	position:fixed ;
+	top: 0px;
+	background-color: lightgreen;
+	width: 100%;
+	height: 40px;
+	color: black;
+	font-size: 20px;
+}
+
+.sign{
+	background-color: grey;
+	color: black;
+	border: 1px solid black;
+	text-align: center;
+}
+.sticky{
+	background-color: lightpink;
+	position: sticky;
+	top: 40px;
+}
+.color-change{
+	font-size: 20px;
+	background-color: grey;
+}
+.available-coffee{
+	color: blue;
+}
+
+.in-stock{
+	border: 4px double green;
+	height: 300px;
+	width: 300px;
+	font-style: italic;
+}
+
+.out-of-stock{
+	border: 4px  dotted red;
+	height: 300px;
+	width: 300px;
+	font-size: 15px;
+	font-style: italic;
+}
+
+#mocha{
+	color: grey;
+}
+
+.img-coffee{
+	width: 100%;
+	height: 80%;
+}
+
+.pata-nahi{
+    height: 300px;
+	width: 300px;
+
+	border-width: 4px;
+	border-top-style: dotted;
+	border-bottom-style: dashed;
+	border-left-style: solid;
+	border-right-style: double;
+	border-color: hotpink;
+}
+.pricing-table{
+	width: 100%;
+	border: 2px solid green;
+	font-family: "Aerial Black", Gadget, sans-serif;
+}
+.caption-heading{
+	color: #2979a8;
+	font-size: 25px;
+}
+th{
+	background-color: lightgreen;
+	height: 50px;
+	color: white;
+	font-size: 22px;
+}
+td{
+	height: 50px;
+	font-size: 21px;
+	color: brown;
+	text-align: center;
+}
+.tr-out-of-stock:hover{
+	background-color:#ffcccc;
+}
+.tr-in-stock:hover{
+	background-color:#ccffe6;
+}
+.footer{
+	background-color: grey;
+	color: white;
+	height: 100px;
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	position: sticky;
+	bottom: 0px;
+}
+[href="https://www.boltiot.com"]{
+	color: red;
+}
+h1,h5{
+	color: blueviolet;
+}
+.family-line span{
+	color: blueviolet;
+}
+
+.container{
+	height: 300px;
+	border: 2px solid red;
+}
+.child1{
+	height: 100px;
+	width: 100px;
+	border: 2px solid green;
+	position: relative;
+	left: 30px;
+	top: 40px;
+}
+.child2{
+	height: 100px;
+	width: 100px;
+	border: 2px solid blue;
+	position: relative;
+	left: 15px;
+	top: 40px;
+}
+
+.floater{
+	height: 500px;
+	border: 2px solid red;
+	position: relative;
+	width: 50%;
+	float: right;
+}
+img{
+	height: 100px;
+	float: left;
+}
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coffee shop</title>
+</head>
+<body>
+	<nav class="navigation">
+		<a href="index.html">Home |</a>
+		<a href="product.html">Product Page</a>
+		<a href="contacts.html">Contact page</a>
+	</nav>
+	<div class="color-change">
+	<p>	
+	e-mail-_______________________________
+    </p>
+	<p>
+	Password-_______________________________
+    </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body >
+	<p id ="output" onmouseover="change_paragraph_text()">Default text</p>
+	<input onkeyup="change_paragraph_text(this.value)">
+
+	<script type="text/javascript">
+		function change_paragraph_text(text){
+			document.getElementById("output").innerHTML=text;
+		}
+	</script>
+</body>
+</html>
